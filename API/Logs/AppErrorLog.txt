@@ -1,0 +1,480 @@
+2021-05-18 11:14:50,177 [7] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.PlayerTeamMaster_Data.Get_PlayerTeamByGameID(PlayerTeamMaster_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\PlayerTeamMaster_Data.cs:line 126
+2021-05-18 11:14:50,178 [7] INFO ErrorLog - Cannot find table 0.
+2021-05-18 11:15:20,815 [7] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.PlayerTeamMaster_Data.Get_PlayerTeamByGameID(PlayerTeamMaster_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\PlayerTeamMaster_Data.cs:line 128
+2021-05-18 11:15:20,815 [7] INFO ErrorLog - Cannot find table 0.
+2021-05-18 11:15:41,912 [7] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.PlayerTeamMaster_Data.Get_PlayerTeamByGameID(PlayerTeamMaster_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\PlayerTeamMaster_Data.cs:line 128
+2021-05-18 11:15:41,917 [7] INFO ErrorLog - Cannot find table 0.
+2021-05-18 11:16:31,546 [7] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.PlayerTeamMaster_Data.Get_PlayerTeamByGameID(PlayerTeamMaster_DTO model)
+2021-05-18 11:16:34,806 [7] INFO ErrorLog - Cannot find table 2.
+2021-05-18 13:05:03,586 [7] INFO ErrorLog - Error in ----------------->[Get_UserMaster]<-----------------
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - <--------------Details Start -------------------->
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - 0
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - 
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - 
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - 
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - 0
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - 0
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - 3
+2021-05-18 13:05:03,689 [7] INFO ErrorLog - <--------------Details End -------------------->
+2021-05-18 13:05:03,710 [7] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Lib\MyDataSourceFactory.cs:line 418
+2021-05-18 13:05:03,800 [7] INFO ErrorLog - Procedure or function 'Get_UserMaster' expects parameter '@Game_PkeyID', which was not supplied.
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - Error in ----------------->[Get_UserMaster]<-----------------
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - <--------------Details Start -------------------->
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - 0
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - 
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - 
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - 
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - 89
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - 0
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - 0
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - 3
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - <--------------Details End -------------------->
+2021-05-18 13:05:59,761 [7] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters)
+2021-05-18 13:05:59,761 [7] INFO ErrorLog - The number of rows provided for a FETCH clause must be greater then zero.
+2021-05-18 13:06:30,317 [7] INFO ErrorLog - Error in ----------------->[Get_UserMaster]<-----------------
+2021-05-18 13:06:30,317 [7] INFO ErrorLog - <--------------Details Start -------------------->
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - 0
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - 
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - 
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - 
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - 89
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - 0
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - 0
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - 3
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - <--------------Details End -------------------->
+2021-05-18 13:06:30,318 [7] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters)
+2021-05-18 13:06:30,318 [7] INFO ErrorLog - The number of rows provided for a FETCH clause must be greater then zero.
+2021-05-18 13:06:30,328 [7] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.UserMaster_Data.Get_Search_UserMasterDetails(UserMaster_DTO model)
+2021-05-18 13:06:30,328 [7] INFO ErrorLog - Cannot find table 0.
+2021-05-19 13:34:38,643 [7] INFO ErrorLog -    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure , CallSite , Object )
+   at API.Repository.Project.PlayerTeamProfile_Data.Get_PlayerStaticsDetails(PlayerTeamMaster_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\PlayerTeamProfile_Data.cs:line 93
+2021-05-19 13:34:38,643 [7] INFO ErrorLog - Cannot implicitly convert type 'System.DBNull' to 'int'
+2021-05-19 13:34:41,080 [6] INFO ErrorLog -    at CallSite.Target(Closure , CallSite , Object )
+   at API.Repository.Project.PlayerTeamProfile_Data.Get_PlayerStaticsDetails(PlayerTeamMaster_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\PlayerTeamProfile_Data.cs:line 93
+2021-05-19 13:34:41,080 [6] INFO ErrorLog - Cannot implicitly convert type 'System.DBNull' to 'int'
+2021-05-19 13:36:18,785 [7] INFO ErrorLog -    at CallSite.Target(Closure , CallSite , Object )
+   at API.Repository.Project.PlayerTeamProfile_Data.Get_PlayerStaticsDetails(PlayerTeamMaster_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\PlayerTeamProfile_Data.cs:line 93
+2021-05-19 13:36:18,785 [7] INFO ErrorLog - Cannot implicitly convert type 'System.DBNull' to 'int'
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - Error in ----------------->[Get_PlayerStatics]<-----------------
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - <--------------Details Start -------------------->
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 0
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 999
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 1
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - 
+2021-05-19 13:36:44,248 [7] INFO ErrorLog - <--------------Details End -------------------->
+2021-05-19 13:36:44,251 [7] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Avigma.Repository.Lib.MyDataSourceFactory.SqlCRUD(String sp_name, Dictionary`2 input_parameters) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Lib\MyDataSourceFactory.cs:line 224
+2021-05-19 13:36:44,251 [7] INFO ErrorLog - Divide by zero error encountered.
+Divide by zero error encountered.
+2021-06-08 11:47:37,061 [6] INFO ErrorLog - Error in ----------------->[CreateUpdate_EndGame]<-----------------
+2021-06-08 11:47:37,074 [6] INFO ErrorLog - <--------------Details Start -------------------->
+2021-06-08 11:47:37,074 [6] INFO ErrorLog - @GT_Game_PkeyID------->250
+2021-06-08 11:47:37,074 [6] INFO ErrorLog - @Type------->1
+2021-06-08 11:47:37,074 [6] INFO ErrorLog - @GT_Winning_TeamID_out------->
+2021-06-08 11:47:37,074 [6] INFO ErrorLog - @GT_Lossing_TeamID_out------->
+2021-06-08 11:47:37,074 [6] INFO ErrorLog - @ReturnValue------->
+2021-06-08 11:47:37,074 [6] INFO ErrorLog - <--------------Details End -------------------->
+2021-06-08 11:47:37,105 [6] INFO ErrorLog -    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Avigma.Repository.Lib.MyDataSourceFactory.SqlCRUD(String sp_name, Dictionary`2 input_parameters) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Lib\MyDataSourceFactory.cs:line 222
+2021-06-08 11:47:37,105 [6] INFO ErrorLog - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+2021-06-08 12:08:33,344 [10] INFO ErrorLog -    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at API.Repository.Project.UserMasterPickup_Data.Get_EndGame(EndGameInput_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\UserMasterPickup_Data.cs:line 147
+2021-06-08 12:08:33,344 [10] INFO ErrorLog - Column 'GT_Home_TeamScore' does not belong to table Table.
+2021-06-08 12:09:14,716 [10] INFO ErrorLog -    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at API.Repository.Project.UserMasterPickup_Data.Get_EndGame(EndGameInput_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\UserMasterPickup_Data.cs:line 147
+2021-06-08 12:09:25,822 [10] INFO ErrorLog - Column 'GT_Home_TeamScore' does not belong to table Table.
+2021-06-08 12:10:14,071 [10] INFO ErrorLog -    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at API.Repository.Project.UserMasterPickup_Data.Get_EndGame(EndGameInput_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\UserMasterPickup_Data.cs:line 147
+2021-06-08 12:10:14,291 [10] INFO ErrorLog - Column 'GT_Home_TeamScore' does not belong to table Table.
+2021-06-17 15:48:37,927 [9] INFO ErrorLog -    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at API.Repository.Project.PlayerTeamProfile_Data.Get_PlayerStaticsDetails(PlayerTeamMaster_DTO model)
+2021-06-17 15:48:37,927 [9] INFO ErrorLog - Cannot implicitly convert type 'System.DBNull' to 'int'
+2021-06-17 15:49:28,019 [24] INFO ErrorLog -    at CallSite.Target(Closure , CallSite , Object )
+   at API.Repository.Project.PlayerTeamProfile_Data.Get_PlayerStaticsDetails(PlayerTeamMaster_DTO model)
+2021-06-17 15:49:28,020 [24] INFO ErrorLog - Cannot implicitly convert type 'System.DBNull' to 'int'
+2021-06-18 18:22:46,983 [6] INFO ErrorLog -    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at API.Repository.Project.PlayerTeamProfile_Data.Get_PlayerStaticsDetails(PlayerTeamMaster_DTO model)
+2021-06-18 18:22:47,748 [6] INFO ErrorLog - Cannot implicitly convert type 'System.DBNull' to 'decimal'
+2021-06-18 18:27:01,642 [5] INFO ErrorLog -    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at API.Repository.Project.PlayerTeamProfile_Data.Get_PlayerStaticsDetails(PlayerTeamMaster_DTO model)
+2021-06-18 18:27:01,643 [5] INFO ErrorLog - Cannot implicitly convert type 'System.DBNull' to 'decimal'
+2021-09-13 16:53:28,206 [7] INFO ErrorLog -    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at API.Repository.Project.StartGameUser_Data.<>c.<GetHomeDetails>b__4_1(DataRow item) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\StartGameUser_Data.cs:line 92
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Repository.Project.StartGameUser_Data.GetHomeDetails(GameMaster_DTO model) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Project\StartGameUser_Data.cs:line 90
+2021-09-13 16:53:28,440 [7] INFO ErrorLog - Column 'Court_PkeyID' does not belong to table Table.
+2021-10-15 18:08:12,948 [9] INFO ErrorLog -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at Avigma.Repository.Lib.ImageGenerator.Base64ToImage(String base64String) in D:\C\BitBucket\PickupPro_API\API\API\Repository\Lib\ImageGenerator.cs:line 49
+2021-10-19 17:00:38,483 [5] INFO ErrorLog - Error in ----------------->[Get_UserMasterLogin]<-----------------
+2021-10-19 17:00:38,500 [5] INFO ErrorLog - <--------------Details Start -------------------->
+2021-10-19 17:00:38,500 [5] INFO ErrorLog - @User_Email------->jigisha@gmail.com
+2021-10-19 17:00:38,500 [5] INFO ErrorLog - @User_Password------->1008
+2021-10-19 17:00:38,500 [5] INFO ErrorLog - @User_Name------->
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - @User_Phone------->
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - @User_MacID------->
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - @User_OTP------->0
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - @User_latitude------->
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - @User_longitude------->
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - @User_Login_Type------->1
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - @User_Token_val------->EAApFYaO2NAQBABZA1rte7MPFwxWwOnc4iZBbpGVLG7FSq5mre656sHrH7ShPxvlQyOmtSB1p0gjbtM8CDgiIT5VL2N3f4lZC3jkIhxRFQZCqQjh3zjfgbBbfR3zx2RF9XIJlnEVbF8ge7hHb4oTHjXiLNMhozf4TXSJbU2XqZBr4p5dlITETv7TobkJ3JVksvJkHtIKhLBvHbumvTtJkh9smeO7Wr3bSSVIq6dtXUpNKWHwc7a7iqM6bjdN37N3EZD
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - @Type------->1
+2021-10-19 17:00:38,501 [5] INFO ErrorLog - <--------------Details End -------------------->
+2021-10-19 17:00:38,584 [5] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters) in D:\C\BitBucket\CSCell\BitBucket\API\Repository\Lib\MyDataSourceFactory.cs:line 417
+2021-10-19 17:00:38,585 [5] INFO ErrorLog - Procedure or function Get_UserMasterLogin has too many arguments specified.
+2021-10-26 12:50:33,843 [8] INFO ErrorLog - Object reference not set to an instance of an object.
+2021-10-26 12:50:33,859 [8] INFO ErrorLog -    at API.Controllers.cssellController.<AddUserMasterData>d__5.MoveNext()
+2021-10-29 16:29:42,680 [9] INFO ErrorLog - The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+2021-10-29 16:29:42,902 [9] INFO ErrorLog -    at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Avigma.Repository.Lib.EmailManager.SendEmail(EmailDTO emailDTO) in D:\C\BitBucket\CSCell\BitBucket\API\Repository\Lib\EmailManager.cs:line 88
+2021-11-18 11:54:19,490 [11] INFO ErrorLog - Object reference not set to an instance of an object.
+2021-11-18 11:54:19,512 [11] INFO ErrorLog -    at API.Controllers.GripMasterController.<GetVerificationLink>d__6.MoveNext()
+2021-11-30 12:04:41,127 [7] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Master_Data.Get_Truck_Order_MasterDetails(Truck_Order_Master_DTO model) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 110
+2021-11-30 12:04:41,138 [7] INFO ErrorLog - Cannot find table 0.
+2021-12-01 14:57:06,699 [49] INFO ErrorLog - Error in ----------------->[Get_Truck_Order_Master]<-----------------
+2021-12-01 14:57:06,715 [49] INFO ErrorLog - <--------------Details Start -------------------->
+2021-12-01 14:57:06,716 [49] INFO ErrorLog - @TOM_PkeyID------->1
+2021-12-01 14:57:06,716 [49] INFO ErrorLog - @Type------->4
+2021-12-01 14:57:06,716 [49] INFO ErrorLog - <--------------Details End -------------------->
+2021-12-01 14:57:06,759 [49] INFO ErrorLog -    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Lib\MyDataSourceFactory.cs:line 416
+2021-12-01 14:57:06,761 [49] INFO ErrorLog - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The network location cannot be reached. For information about network troubleshooting, see Windows Help.)
+2021-12-01 14:57:06,777 [49] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Master_Data.Get_Truck_Order_MasterDetails(Truck_Order_Master_DTO model) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 140
+2021-12-01 14:57:06,777 [49] INFO ErrorLog - Cannot find table 0.
+2021-12-01 16:08:32,949 [5] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Master_Data.<>c__DisplayClass7_0.<Get_Truck_Order_MasterDetails>b__0(DataRow item) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 162
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Repository.Project.Truck_Order_Master_Data.Get_Truck_Order_MasterDetails(Truck_Order_Master_DTO model) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 160
+2021-12-01 16:08:32,961 [5] INFO ErrorLog - Cannot find table 1.
+2021-12-01 16:10:45,949 [7] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Master_Data.<>c__DisplayClass7_0.<Get_Truck_Order_MasterDetails>b__0(DataRow item) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 162
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Repository.Project.Truck_Order_Master_Data.Get_Truck_Order_MasterDetails(Truck_Order_Master_DTO model) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 160
+2021-12-01 16:10:45,949 [7] INFO ErrorLog - Cannot find table 1.
+2021-12-01 16:10:57,117 [7] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Master_Data.<>c__DisplayClass7_0.<Get_Truck_Order_MasterDetails>b__0(DataRow item) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 162
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at API.Repository.Project.Truck_Order_Master_Data.Get_Truck_Order_MasterDetails(Truck_Order_Master_DTO model) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 160
+2021-12-01 16:10:57,117 [7] INFO ErrorLog - Cannot find table 1.
+2021-12-04 20:36:00,860 [38] INFO ErrorLog - Error in ----------------->[Get_Truck_Order_Master]<-----------------
+2021-12-04 20:36:00,862 [38] INFO ErrorLog - <--------------Details Start -------------------->
+2021-12-04 20:36:00,862 [38] INFO ErrorLog - @TOM_PkeyID------->1
+2021-12-04 20:36:00,862 [38] INFO ErrorLog - @Type------->4
+2021-12-04 20:36:00,862 [38] INFO ErrorLog - <--------------Details End -------------------->
+2021-12-04 20:36:00,916 [38] INFO ErrorLog -    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Lib\MyDataSourceFactory.cs:line 416
+2021-12-04 20:36:00,917 [38] INFO ErrorLog - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The network location cannot be reached. For information about network troubleshooting, see Windows Help.)
+2021-12-04 20:36:00,940 [38] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Master_Data.Get_Truck_Order_MasterDetails(Truck_Order_Master_DTO model) in E:\Pradeep\Projects\grip-master\grip-master-api\API\API\Repository\Project\Truck_Order_Master_Data.cs:line 215
+2021-12-04 20:36:00,940 [38] INFO ErrorLog - Cannot find table 0.
+2022-02-23 15:36:24,915 [78] INFO ErrorLog - Could not find a part of the path 'C:\Inetpub\vhosts\ikaart.org\pickupproapi.ikaart.org\Images\f4e9b09e-3618-46f0-b39d-c48b77732fb1.png'.
+2022-02-23 15:36:25,031 [78] INFO ErrorLog -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at Avigma.Repository.Lib.ImageGenerator.Base64ToImage(String base64String) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\ImageGenerator.cs:line 67
+2022-02-23 15:39:42,002 [59] INFO ErrorLog - Could not find a part of the path 'C:\Inetpub\vhosts\ikaart.org\pickupproapi.ikaart.org\Images\d2c3d853-1dd0-46fc-9b78-078864fc5ad6.png'.
+2022-02-23 15:39:42,003 [59] INFO ErrorLog -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at Avigma.Repository.Lib.ImageGenerator.Base64ToImage(String base64String) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\ImageGenerator.cs:line 67
+2022-02-24 10:24:37,002 [32] INFO ErrorLog - Error in ----------------->[Get_Truck_Order_Child]<-----------------
+2022-02-24 10:24:37,003 [32] INFO ErrorLog - <--------------Details Start -------------------->
+2022-02-24 10:24:37,003 [32] INFO ErrorLog - @TOC_PkeyID------->1
+2022-02-24 10:24:37,003 [32] INFO ErrorLog - @Type------->1
+2022-02-24 10:24:37,003 [32] INFO ErrorLog - <--------------Details End -------------------->
+2022-02-24 10:24:37,047 [32] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\MyDataSourceFactory.cs:line 418
+2022-02-24 10:24:37,048 [32] INFO ErrorLog - Could not find stored procedure 'Get_Truck_Order_Child'.
+2022-02-24 10:24:37,088 [32] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Child_Data.Get_Truck_Order_ChildDetails(Truck_Order_Child_DTO model) in C:\Users\AEPAC\Downloads\packages\API\Repository\Project\Truck_Order_Child_Data.cs:line 107
+2022-02-24 10:24:37,088 [32] INFO ErrorLog - Cannot find table 0.
+2022-02-24 10:25:14,157 [19] INFO ErrorLog - Error in ----------------->[Get_Truck_Order_Child]<-----------------
+2022-02-24 10:25:14,157 [19] INFO ErrorLog - <--------------Details Start -------------------->
+2022-02-24 10:25:14,157 [19] INFO ErrorLog - @TOC_PkeyID------->1
+2022-02-24 10:25:14,157 [19] INFO ErrorLog - @Type------->1
+2022-02-24 10:25:14,157 [19] INFO ErrorLog - <--------------Details End -------------------->
+2022-02-24 10:25:14,157 [19] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\MyDataSourceFactory.cs:line 418
+2022-02-24 10:25:14,158 [19] INFO ErrorLog - Could not find stored procedure 'Get_Truck_Order_Child'.
+2022-02-24 10:25:31,254 [19] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Child_Data.Get_Truck_Order_ChildDetails(Truck_Order_Child_DTO model) in C:\Users\AEPAC\Downloads\packages\API\Repository\Project\Truck_Order_Child_Data.cs:line 107
+2022-02-24 10:25:31,254 [19] INFO ErrorLog - Cannot find table 0.
+2022-02-24 10:25:38,619 [10] INFO ErrorLog - Error in ----------------->[Get_Truck_Order_Child]<-----------------
+2022-02-24 10:25:38,619 [10] INFO ErrorLog - <--------------Details Start -------------------->
+2022-02-24 10:25:38,619 [10] INFO ErrorLog - @TOC_PkeyID------->1
+2022-02-24 10:25:38,619 [10] INFO ErrorLog - @Type------->1
+2022-02-24 10:25:38,619 [10] INFO ErrorLog - <--------------Details End -------------------->
+2022-02-24 10:25:38,620 [10] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\MyDataSourceFactory.cs:line 418
+2022-02-24 10:25:38,620 [10] INFO ErrorLog - Could not find stored procedure 'Get_Truck_Order_Child'.
+2022-02-24 10:25:46,627 [10] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.Truck_Order_Child_Data.Get_Truck_Order_ChildDetails(Truck_Order_Child_DTO model) in C:\Users\AEPAC\Downloads\packages\API\Repository\Project\Truck_Order_Child_Data.cs:line 107
+2022-02-24 10:25:46,627 [10] INFO ErrorLog - Cannot find table 0.
+2022-02-24 10:28:51,583 [19] INFO ErrorLog - Error in ----------------->[CreateUpdate_User_Admin_Master]<-----------------
+2022-02-24 10:28:52,003 [19] INFO ErrorLog - <--------------Details Start -------------------->
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_PkeyID------->4
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_First_Name------->unnati
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_Last_Name------->panchal
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_Address------->Vikhroli
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_City------->Mumbai
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_State------->Maharashtra
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_Mobile------->999999999
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_Login_Name------->unnati
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_Password------->unnati123
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_UserVal------->unnati12
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_Email------->unnati@gmail.com
+2022-02-24 10:29:01,921 [19] INFO ErrorLog - @Ad_User_IsActive------->True
+2022-02-24 10:29:01,922 [19] INFO ErrorLog - @Ad_User_IsDelete------->False
+2022-02-24 10:29:01,922 [19] INFO ErrorLog - @Ad_User_Type------->1
+2022-02-24 10:29:01,922 [19] INFO ErrorLog - @Type------->1
+2022-02-24 10:29:01,922 [19] INFO ErrorLog - @UserID------->0
+2022-02-24 10:29:01,922 [19] INFO ErrorLog - @Ad_User_Pkey_Out------->
+2022-02-24 10:29:01,922 [19] INFO ErrorLog - @ReturnValue------->
+2022-02-24 10:29:01,922 [19] INFO ErrorLog - <--------------Details End -------------------->
+2022-02-24 10:29:01,924 [19] INFO ErrorLog -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Avigma.Repository.Lib.MyDataSourceFactory.SqlCRUD(String sp_name, Dictionary`2 input_parameters) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\MyDataSourceFactory.cs:line 224
+2022-02-24 10:29:01,924 [19] INFO ErrorLog - A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+2022-02-24 10:29:24,763 [33] INFO ErrorLog - Error in ----------------->[Get_User_Admin_Master]<-----------------
+2022-02-24 10:29:24,763 [33] INFO ErrorLog - <--------------Details Start -------------------->
+2022-02-24 10:29:24,763 [33] INFO ErrorLog - @Ad_User_PkeyID------->1
+2022-02-24 10:29:24,764 [33] INFO ErrorLog - @Type------->1
+2022-02-24 10:29:24,764 [33] INFO ErrorLog - <--------------Details End -------------------->
+2022-02-24 10:29:24,765 [33] INFO ErrorLog -    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Avigma.Repository.Lib.MyDataSourceFactory.SelectSql(String sp_name, Dictionary`2 input_parameters) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\MyDataSourceFactory.cs:line 417
+2022-02-24 10:29:24,765 [33] INFO ErrorLog - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+2022-02-24 10:29:24,807 [33] INFO ErrorLog - Cannot find table 0.
+2022-02-24 10:29:24,807 [33] INFO ErrorLog -    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at API.Repository.Project.User_Admin_Master_Data.Get_User_Admin_MasterDetails(User_Admin_Master_DTO model) in C:\Users\AEPAC\Downloads\packages\API\Repository\Avigma\User_Admin_Master_Data.cs:line 109
+2022-03-10 15:24:41,942 [36] INFO ErrorLog - Could not find a part of the path 'C:\Inetpub\vhosts\ikaart.org\pickupproapi.ikaart.org\Images\4f44caf4-15cd-4328-9a92-6145f68162eb.png'.
+2022-03-10 15:24:41,970 [36] INFO ErrorLog -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at Avigma.Repository.Lib.ImageGenerator.Base64ToImage(String base64String) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\ImageGenerator.cs:line 67
+2022-03-10 15:29:00,734 [42] INFO ErrorLog - Could not find a part of the path 'C:\Inetpub\vhosts\ikaart.org\pickupproapi.ikaart.org\Images\841d8e6b-5677-4859-8667-61ae6cdc12e9.png'.
+2022-03-10 15:29:00,735 [42] INFO ErrorLog -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at Avigma.Repository.Lib.ImageGenerator.Base64ToImage(String base64String) in C:\Users\AEPAC\Downloads\packages\API\Repository\Lib\ImageGenerator.cs:line 67

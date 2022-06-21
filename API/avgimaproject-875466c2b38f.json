@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "avgimaproject",
+  "private_key_id": "875466c2b38fca5f81acdf7d2abca44c3c3c7ac9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCiFX7heteCRKwA\n+E0dO997lL7D+gARbPBEWi/gcoardFp5YLZjo5Hq66XqKCjpHoNQhCNpYvjX/N9m\nBcm6MH3M/IpibjZpaVVRu+/MFL5g24OBC1Z8vh4uXfArKtW82W0nT2gB0rAp5QrZ\nptC4hTvvV56DcKzklJl3xaCmtEUqrdnOzhI8zEhOFUNWaTX6QzqUEDgzVNjpoa7C\nqv7JzHuj8dXrlY8hufNQbnkpJu+tgcX+cGzMYIOMWxJQbzpfVL1/UMsnHH3u+jQR\nCZIsuVvItLAUFyVyx15/W5pZ5CJ/x96jnHAE+fSkwQzFUqm1yolMJzn8Vb3y+TPF\n5Lv1UIinAgMBAAECggEAHfelduD0eYRi3OcLsuz/++RbhPZzDsW6gpi+I1xpY8fm\ndmyYLEHw16NsEKgOMFPQ6ZEUzwZaheyeDUniq0cN61mB6IMCEmlEOhFqW6w2KshL\nPw+ulO+9usrpfcG0tO7qTItU6olewtAzOlyqWINhunXTu++YN8b1vPxQIKJR63rf\ngR7eeUJJnV+rEiimdkbMA8c2QpoTxfJA8vNxVIs3UCN8xVYvgJgNMvZarwsVGT7V\nNRKQ2rj27I3HifxDhWSUzXIupYyD7HWCkJNcZz4cKOmU94i93EMyFD+F0Rfwryr+\nDGxKEkUhnfbzytEOCaRymVWMOR3tQLtVvbDJHIQ48QKBgQDh5nJxGaU0hW5RHt/W\nppqNt+5Xx8e9QqZWVNY5THY1UUg1N2GL98Ui2ClV04AgW0cfZdjJ7k2XNJeJBA6+\nwBrhh2M3VdwSsm0MNHIfkZS3qi1JAfg9LxZc/BfW9WxUgTzPONme872Urjq7fb1e\nTqWGhiyxQZAURJ9NpL+oIezVqQKBgQC3rj/2EQfKVMin79YYAJ96iyV9FVLJ45MQ\nJefHtVAbyTvEeensE4y0As+9qVIg4w74knheiRqD8RHwG+TQWZEnPp7VdzmAEZG3\n/ZgU+l/U1qNV5E07MGwPZ7kaZygC6oAMXa0Q8dCw8SrcxGggmvWuNIjxFailrJBl\nwltAi8K9zwKBgD4uqSHo5Ujn0c4SqZr0kWahUsJnA9xdFFx/TdjH62IR1caQUBGv\nSlylE/vEFGjTt2g1KM+tAT62A2B79XMcfknGctEwmTusUcgiR6fY8w77kSufly2A\nYK+H1SgetossaAjCpWTTw0PCEfi6S/5Bt96n4HWKjpaFrTQ6PWeSrxbBAoGAbVyG\nII/LP6BzR+n4YpocWe33CB5mCGZC7V5kPfeqFqEdwMGFkVWidJsn7RifGY2XIFC0\n8jRXYS9rKraw6YwqbF9QWnB9/852IEIRBox7+lFBNqaThSYzcIilIR9CJ1pPmw07\nOdeAFZnBl2gpRyB8HpiQ4Fmw69NuteeeRTPxYukCgYEAnyVm8c2/Rx8ViwmRPB5k\nWkaqH+j/dGwS0jzk2aqV6pG3t3bBY40FFiyT9Cupx/pHVhmHZ/8Q2NV1DJmHqQ/a\n6fgf7Fc1xqpk3v4izlaM1dkxEBoZxUeqvD7eQJK7SlKe12h+i+rYhbx1QmFqpyXC\n+tna9X5PV2kKREVSgVbjfW0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "avgimaproject@appspot.gserviceaccount.com",
+  "client_id": "101686579673364712070",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/avgimaproject%40appspot.gserviceaccount.com"
+}

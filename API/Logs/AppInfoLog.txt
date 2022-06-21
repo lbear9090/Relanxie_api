@@ -1,0 +1,56 @@
+2021-06-10 17:51:07,244 [17] INFO InfoLog - Notification Out Called---------->niral1
+2021-06-10 17:51:07,244 [17] INFO InfoLog - Notification Called---------->niral1
+2021-06-10 17:51:07,244 [17] INFO InfoLog - Notification Called for------>dmZse3MlRY-XgcbITAy4TV:APA91bFYPVLD13Mf2Tw8g9s1l1J0rcZW_gxod1TYsVlBSJrODO545NbKY8z3m8mHwc4WG9_Ri5HkLx002hxV92f19vdLA9g4N8AC-VsT5pqg2lvU4M6B-x2mHSyPwo3l1kdIR-Jno2MU
+2021-06-10 17:51:10,740 [17] INFO InfoLog - Notifcation Status
+2021-06-10 17:51:10,741 [17] INFO InfoLog - {"multicast_id":3059647998986150879,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1623327671553659%91d0a0f791d0a0f7"}]}
+2021-06-10 17:51:10,741 [17] INFO InfoLog - Notification Out Called---------->sneha
+2021-06-10 17:51:10,741 [17] INFO InfoLog - Notification Out Called---------->sonal
+2021-06-10 17:51:10,741 [17] INFO InfoLog - Notification Out Called---------->minal123
+2021-06-10 17:51:10,741 [17] INFO InfoLog - Notification Out Called---------->rahul
+2021-06-10 17:51:10,741 [17] INFO InfoLog - Notification Out Calledniral jain
+2021-06-10 17:51:10,741 [17] INFO InfoLog - Notification Calledniral jain
+2021-06-10 17:51:10,741 [17] INFO InfoLog - Notification Called for------>dH5Gd8dQT_aAVVKqdNHjm6:APA91bGcyEFSJ3pAVvtmi8XNAD13gwsqCSU9iJfvxXhdqHIIYCDdd05rPFYhdCTgfENhLbMLESERTozasfHZdxK7j1gCMuozfkokilqYa9WUDvIaXidVbalAjBXza563F4xXtVJzhrqi
+2021-06-10 17:51:12,871 [17] INFO InfoLog - Notifcation Status
+2021-06-10 17:51:12,871 [17] INFO InfoLog - {"multicast_id":1809560688137157949,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1623327673695069%91d0a0f791d0a0f7"}]}
+2021-06-10 17:51:12,871 [17] INFO InfoLog - Notification Out Calledniral7
+2021-06-10 17:51:12,871 [17] INFO InfoLog - Notification Out Calledniral8
+2021-06-10 17:51:12,871 [17] INFO InfoLog - Notification Out Calledsumit2
+2021-06-10 17:51:12,871 [17] INFO InfoLog - Notification Out Calledsumit4
+2021-06-10 17:53:23,238 [10] INFO InfoLog - Notification Out Called---------->niral1
+2021-06-10 17:53:23,238 [10] INFO InfoLog - Notification Called---------->niral1
+2021-06-10 17:53:23,238 [10] INFO InfoLog - Notification Called for------>dmZse3MlRY-XgcbITAy4TV:APA91bFYPVLD13Mf2Tw8g9s1l1J0rcZW_gxod1TYsVlBSJrODO545NbKY8z3m8mHwc4WG9_Ri5HkLx002hxV92f19vdLA9g4N8AC-VsT5pqg2lvU4M6B-x2mHSyPwo3l1kdIR-Jno2MU
+2021-06-10 17:53:25,269 [10] INFO InfoLog - Notifcation Status
+2021-06-10 17:53:25,269 [10] INFO InfoLog - {"multicast_id":7193262240019724765,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1623327805757676%91d0a0f791d0a0f7"}]}
+2021-06-10 17:53:25,269 [10] INFO InfoLog - Notification Out Called---------->sneha
+2021-06-10 17:53:25,270 [10] INFO InfoLog - Notification Out Called---------->sonal
+2021-06-10 17:53:25,270 [10] INFO InfoLog - Notification Out Called---------->minal123
+2021-06-10 17:53:25,270 [10] INFO InfoLog - Notification Out Called---------->rahul
+2021-06-10 17:53:25,270 [10] INFO InfoLog - Notification Out Calledniral jain
+2021-06-10 17:53:25,270 [10] INFO InfoLog - Notification Calledniral jain
+2021-06-10 17:53:25,270 [10] INFO InfoLog - Notification Called for------>dH5Gd8dQT_aAVVKqdNHjm6:APA91bGcyEFSJ3pAVvtmi8XNAD13gwsqCSU9iJfvxXhdqHIIYCDdd05rPFYhdCTgfENhLbMLESERTozasfHZdxK7j1gCMuozfkokilqYa9WUDvIaXidVbalAjBXza563F4xXtVJzhrqi
+2021-06-10 17:53:27,534 [10] INFO InfoLog - Notifcation Status
+2021-06-10 17:53:27,534 [10] INFO InfoLog - {"multicast_id":4582565503149677769,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1623327808345928%91d0a0f791d0a0f7"}]}
+2021-06-10 17:53:27,534 [10] INFO InfoLog - Notification Out Calledniral7
+2021-06-10 17:53:27,534 [10] INFO InfoLog - Notification Out Calledniral8
+2021-06-10 17:53:27,534 [10] INFO InfoLog - Notification Out Calledsumit2
+2021-06-10 17:53:27,534 [10] INFO InfoLog - Notification Out Calledsumit4
+2021-06-10 17:54:21,524 [17] INFO InfoLog - Notification Out Called---------->niral1
+2021-06-10 17:54:21,524 [17] INFO InfoLog - Notification Called---------->niral1
+2021-06-10 17:54:21,524 [17] INFO InfoLog - Notification Called for------>dmZse3MlRY-XgcbITAy4TV:APA91bFYPVLD13Mf2Tw8g9s1l1J0rcZW_gxod1TYsVlBSJrODO545NbKY8z3m8mHwc4WG9_Ri5HkLx002hxV92f19vdLA9g4N8AC-VsT5pqg2lvU4M6B-x2mHSyPwo3l1kdIR-Jno2MU
+2021-06-10 17:54:23,751 [17] INFO InfoLog - Notifcation Status
+2021-06-10 17:54:23,751 [17] INFO InfoLog - {"multicast_id":3987957961837523458,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1623327864566017%91d0a0f791d0a0f7"}]}
+2021-06-10 17:54:23,751 [17] INFO InfoLog - Notification Out Called---------->sneha
+2021-06-10 17:54:23,751 [17] INFO InfoLog - Notification Out Called---------->sonal
+2021-06-10 17:54:23,751 [17] INFO InfoLog - Notification Out Called---------->minal123
+2021-06-10 17:54:23,751 [17] INFO InfoLog - Notification Out Called---------->rahul
+2021-06-10 17:54:23,751 [17] INFO InfoLog - Notification Out Calledniral jain
+2021-06-10 17:54:23,751 [17] INFO InfoLog - Notification Calledniral jain
+2021-06-10 17:54:23,751 [17] INFO InfoLog - Notification Called for------>dH5Gd8dQT_aAVVKqdNHjm6:APA91bGcyEFSJ3pAVvtmi8XNAD13gwsqCSU9iJfvxXhdqHIIYCDdd05rPFYhdCTgfENhLbMLESERTozasfHZdxK7j1gCMuozfkokilqYa9WUDvIaXidVbalAjBXza563F4xXtVJzhrqi
+2021-06-10 17:54:26,212 [17] INFO InfoLog - Notifcation Status
+2021-06-10 17:54:26,212 [17] INFO InfoLog - {"multicast_id":5504356008274621179,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1623327867026980%91d0a0f791d0a0f7"}]}
+2021-06-10 17:54:26,212 [17] INFO InfoLog - Notification Out Calledniral7
+2021-06-10 17:54:26,212 [17] INFO InfoLog - Notification Out Calledniral8
+2021-06-10 17:54:26,212 [17] INFO InfoLog - Notification Out Calledsumit2
+2021-06-10 17:54:26,212 [17] INFO InfoLog - Notification Out Calledsumit4
+2021-09-23 19:55:09,411 [6] INFO InfoLog - Notifcation Status
+2021-09-23 19:55:10,279 [6] INFO InfoLog - {"multicast_id":1255423214409483994,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1632407108059211%91d0a0f791d0a0f7"}]}
